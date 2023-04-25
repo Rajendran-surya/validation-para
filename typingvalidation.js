@@ -9,11 +9,11 @@ function validatePara() {
 
   if (x == y) {
 
-    document.getElementById("content").style.backgroundColor = 'green';
+    document.getElementById("input").style.backgroundColor = 'green';
   }
   else {
 
-    document.getElementById("content").style.backgroundColor = 'red';
+    document.getElementById("input").style.backgroundColor = 'red';
 
   }
 }
@@ -75,11 +75,11 @@ else{
 
   if (x == y) {
 
-    document.getElementById("content").style.backgroundColor = 'green';
+    document.getElementById("input").style.backgroundColor = 'green';
   }
   else {
 
-    document.getElementById("content").style.backgroundColor = 'red';
+    document.getElementById("input").style.backgroundColor = 'red';
 
   }
   
