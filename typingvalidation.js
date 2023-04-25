@@ -52,7 +52,7 @@ else{
 // validate-wrong words
 
 
-  const paragraph = "VirtualMaze is one of the prominent companies in the Information Technology industry situated in Chennai, Tamil Nadu. It is renowned for providing amazing ...";
+  const paragraph = "VirtualMaze is one of the prominent companies in the Information Technology industry situated in Chennai, Tamil Nadu";
   
    input=document.getElementById("input").value;
   let userInput=input
