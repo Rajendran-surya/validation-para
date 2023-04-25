@@ -40,7 +40,7 @@ if(i<60){
   
 
   
- document.getElementById("outputtime").innerHTML="your Typing speed is"+"  "+ Math.round(Math.abs(i))+"seconds"
+ document.getElementById("outputtime").innerHTML="Your Typing speed is"+"  "+ Math.round(Math.abs(i))+"seconds"
 }
 else{
   let full=(Math.abs(Math.round(i/60))+"min")
@@ -67,7 +67,7 @@ else{
     }
   }
   
-  document.getElementById("outputerror").innerHTML="your typing error is" +" "+   (wrongWordCount); 
+  document.getElementById("outputerror").innerHTML="Your typing error is" +" "+   (wrongWordCount); 
   
   var x = document.getElementById("content").innerHTML;
   var y = document.getElementById("input").value;
